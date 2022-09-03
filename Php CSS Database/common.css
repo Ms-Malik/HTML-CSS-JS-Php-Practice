@@ -1,0 +1,51 @@
+/* Page body */
+<style>
+body { font-family: Arial, Helvetica, sans-serif; }
+/* Definition lists */
+dl { width: 100%; color:blue; margin: 2em 0; padding: 0; clear: both; overflow: auto; }
+dt { width: 30%; color:blue; float: left; margin: 0; padding: 5px 9.9% 5px 0; border-top: 1px solid #DDDDB7; font-weight: bold; overflow: auto; clear: left; }
+dd { width: 60%; color:blue; float: left; margin: 0; padding: 6px 0 5px 0; border-top: 1px solid #DDDDB7; overflow: auto; }
+
+/* Headings */
+h1 { font-weight: bold; margin: 35px 0 14px; color: #666; font-size: 1.5em; }
+h2 { font-weight: bold; margin: 30px 0 12px; color: #666; font-size: 1.3em; }
+h3 { font-weight: normal; margin: 30px 0 12px; color: #666; font-size: 1.2em; }
+h4 { font-weight: bold; margin: 25px 0 12px; color: #666; font-size: 1.0em; }
+h5 { font-weight: bold; margin: 25px 0 12px; color: #666; font-size: 0.9em; }
+
+/* Forms */
+/*label { display: block; float: left; clear: both; text-align: right; color:blue; margin: 0.6em 5px 5px 5px; width: 40%; }
+input, select, textarea { float: right; margin: 1em 5px 5px 5px; width: 57%; }
+input { border: 1px solid #666; }
+input[type=radio], input[type=checkbox], input[type=submit], input[type=reset], input[type=button], input[type=image] { width: auto; }*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  </style>

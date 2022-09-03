@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #999F8E;
+  color: black;
+  font-size: 18px;
+}
+.para {
+position:absolute;
+left:10px;
+top:190px;
+    width: 600px;
+    height: 100px;
+    margin: 5px;
+	padding:10px;
+	text-align:justify;
+	background:white;
+	font-family:MV boli; 
+}
+.bullets {
+position:absolute;
+left:610px;
+top:200px;
+    width: 360px;
+    height: 480px;
+    margin: 20px;
+	text-align:justify;
+	font-family:Times New Roman;
+	font-size:16pt;
+	padding:10px;
+	padding-right:20px;
+    }
+.image
+{
+position:absolute;
+left:1000px;
+top:190px;
+    width: 650px;
+    height: 550px;
+	padding:10px;
+	text-align:justify;
+    
+}	
+.table
+{
+position:absolute;
+left:10px;
+top:580px;
+    width: 1000px;
+    height: 550px;
+	padding: 10px;
+	text-align:justify;
+    
+}	
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>SOFTWARE QUALITY ASSURANCE</h1>
+  <p>WORKSHOP DETAILS</p>
+</div>
+
+<div class="para">
+The pupose of the workshop is to give the audience a introduction about Using tables for layout creation is intuitive. You can see them almost everywhere! You don't even need to use a separate CSS stylesheet when using tables. And, what is more important, they don't break. Me neither. <span class="s1">Sounds great</span>. We'll use one of them for our site later.
+</div>
+
+<div class="bullets">
+  <ul style="list-style-image: url('b.jpg');">
+  <li>What is software Quality?<li>Software quality factors,quality, costs<li>Quality control vs quality assurance<li> concepts of verification and validation<li>How to make a software3 Quality Assurance Plans<li>Software qualitu assurance through verification and validation<li>Verification and validation of critical systems</ul>
+.</div>
+
+<div class="image">
+<img src="sqa.jpg" width="450" height="500">
+</div>
+
+<div class="table">
+	<table width=1430>
+		<tr bgcolor="999F8E">
+			<td align="center">
+				<a href="https://www.google.com">Meet Link</a>
+                    <br>
+                        <a href="https://www.google.com">Meet Link</a>
+                        <br>
+                        <a href="https://www.google.com">Meet Link</a>
+                        <br>
+                        <a href="https://www.google.com">Meet Link</a>
+            </td>
+            <td align="center">
+                        <a href="https://www.google.com">Meet Link</a>
+                        <br>
+                        <a href="https://www.google.com">Meet Link</a>
+                        <br>
+                        <a href="https://www.google.com">Meet Link</a>
+                        <br>
+                        <a href="https://www.google.com">Meet Link</a>
+            </td>
+            <td align="center">
+                        <a href="https://www.google.com">Meet Link</a>
+                        <br>
+                        <a href="https://www.google.com">Meet Link</a>
+                        <br>
+                        <a href="https://www.google.com">Meet Link</a>
+                        <br>
+                        <a href="https://www.google.com">Meet Link</a>
+            </td>
+        </tr>
+    </table>
+</div>	
+</body>

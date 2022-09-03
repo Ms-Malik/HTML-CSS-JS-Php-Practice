@@ -1,0 +1,47 @@
+<html>
+<head>
+<SCRIPT>
+
+
+function Check() {
+
+  if (pak.checked)
+{pass.disabled=true; 
+cnic.disabled=false;
+checkprov();}
+else
+{cnic.disabled=true;
+pass.disabled=false;
+
+} 
+}
+function checkprov()
+{
+
+let option = document.createElement("option");
+option.text = "Sindh";
+prov.add(option,1);
+let option1 = document.createElement("option");
+option1.text = "Baluchistan";
+prov.add(option1,2);
+}
+
+</SCRIPT></head><body>
+<FORM name="calc">
+<table >
+<tr>
+<td> Nationality </td>
+<td>Pakistani<INPUT type="radio" name="r1" id="pak" onchange="Check()" >Other<INPUT type="radio" size="10" id="other" name="r1" onchange="Check()" checked></td></tr>
+<tr><td> CNIC </td><td><INPUT type="text" size="10" id="cnic" disabled="true">
+<select id="prov">
+<option value="select"> select</option>
+</select>
+</td>
+</tr>
+  <tr><td>Passport #</td><td><INPUT type="text" size="10" id="pass" ></td></tr>
+  <tr><td colspan="2">
+  <INPUT type="button" value="Submit" 
+    ></td></tr>
+</FORM>
+</body>
+</html>

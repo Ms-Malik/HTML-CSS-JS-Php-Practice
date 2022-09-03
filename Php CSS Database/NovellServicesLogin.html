@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title> Novell Services Login</title>
+</head>
+<body>
+    <form action="process_registration_multi.php" method="post" >
+        <div style="width: 30em;">
+            <label for="uname">UserName</label>
+             <!--placeholder add text in background of text fields-->
+             <input type="text" name="username" id="uname" value="" placeholder="Enter Your Name" required><span style="color:red">*</span></br></br></br>
+             <!--<script>
+             if(document.getElementById("uname").value.length <= 1)
+             {
+                <span style="color:red;font-size:10px">enter name</span>
+             }
+             </script>-->
+             <label for="passwrd">Password</label>
+             <input type="password" name="pasword" id="passwrd" value="" required><span style="color:red">*</span></br></br></br>
+             <!--<script>
+                 (document.getElementById("passwrd").value.length < 10 && document.getElementById("passwrd").value(^[0-9]))
+                 {
+                    <span style="color:red;font-size:10px">length must be greater than 0 and starts with digit</span>
+                 }
+              </script>-->
+            <label for="cofe">City of Employement</label>
+            <input type="text" name="coe" id="cofe" value="" required><span style="color:red">*</span></br></br></br>
+            <label for="wserver">Web Server<span style="color:red">*</span></label>
+            <!--In Label for=id--> 
+            <select name="ws[]" id="wserver" required multiple> 
+                <option value="" selected="selected" hidden="hidden">--Choose a server--</option>
+                <option value="apache">Apache</option>
+                <option value="tomcat">TomCat</option>
+                <option value="iis">IIS</option>
+                <option value="nginx">Nginx</option>
+            </select>
+            <span style="font-size:10px;color:blue">Hold down the Ctrl button to select multiple options.</span>
+            </br></br></br>
+            <label for="psur" required>Please specify your role: <span style="color:red">*</span></br></label>
+            <input type="radio" name="role" id="psur" value="Admin">Admin</input></br>
+            <input type="radio" name="role" id="psur" value="Engineer">Engineer</input></br>
+            <input type="radio" name="role" id="psur" value="Manager">Manager</input></br>
+            <input type="radio" name="role" id="psur" value="Guest">Guest</input></br></br></br>
+            <label for="ss1" required>Single Sign-on to the following:<span style="color:red">*</span></br></label>
+            <input type="checkbox" name="sign[]" id="ss1" value="Mail">Mail</input></br>
+            <input type="checkbox" name="sign[]" id="ss2" value="Payroll">Payroll</input></br>
+            <input type="checkbox" name="sign[]" id="ss3" value="Self-Service">Self-Service</input></br></br></br>
+            <div style="clear: both;">
+                <input type="submit" name="submitButton" id="submitButton" value="Login" />
+                <input type="reset" name="resetButton" id="resetButton" value="Reset Form" style="margin-right: 20px;" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>

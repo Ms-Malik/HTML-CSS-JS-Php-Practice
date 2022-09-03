@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body{
+width:80%;
+margin-left:20%;
+}
+.green {
+    position:absolute;
+	left:10px;
+	top:10px;
+    width: 300px;
+    height: 350px;
+    border: 1px solid green;
+    margin: 5px;
+	Font-size:12pt;
+	Font-Family:ink free;
+	text-align:center;
+	padding:5px;
+	font-weight:bolder;
+}
+
+.red {
+position:absolute;
+left:350px;
+top:10px;
+    width: 300px;
+    height: 350px;
+    border: 1px solid ;
+    margin: 5px;
+	text-align:justify;
+	font-family:Ink Free;
+	font-size:12pt;
+	padding:4px;
+	padding-right:10px;
+    }
+.blue {
+position:absolute;
+left:10px;
+top:400px;
+    width: 640px;
+    height: 100px;
+    border: 1px solid teal;
+    margin: 5px;
+	padding:10px;
+	text-align:justify;
+	background:url(sqa.jpg) no-repeat 175px 0px;
+	font-family:MV boli;
+    
+}
+.image
+{
+position:absolute;
+left:700px;
+top:10px;
+    width: 300px;
+    height: 490px;
+    border: 1px solid blue;
+
+	padding:10px;
+	text-align:justify;
+    
+}
+.last{
+position:absolute;
+left:10px;
+top:540px;
+    width: 990px;
+    height: 40px;
+    border: 1px solid teal;
+    margin: 5px;
+	padding:10px;
+	text-align:center;
+	font-family:Courier;
+	font-weight:bolder;
+	}
+
+.s1 {
+  background: #66cccc;
+  Font-Family:"courier";
+  }
+  li{
+  Font-Family:Ink free;
+  Font-Size:18pt;
+  }
+input[type=text], select {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:#66cccc;
+}
+
+input[type=submit] {
+  width: 95%;
+  background-color: #FCAF00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45ab99;
+}
+a:link {color: #0000FF;Font-size:16pt;}
+a:visited {color: #006600}
+a:hover {background-color:#FF00FF;
+		Font-Family:"Arial";}
+a:active {color: #FF00CC}
+  
+</style>
+</head>
+<body>
+
+
+<div class="green">
+<br><br>
+ <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+  
+</div>
+
+<div class="red">
+  <p style="Letter-spacing:.75em;text-align:center;Font-size:1.5em;background-color:#66cccc">Why <br>JavaScript</p>
+  <ul style="list-style-image: url('bul.png');">
+  <li>HTML, to define the content of web pages<li>CSS, to specify the layout of web pages<li>JavaScript, to program the behaviour of web pages  </ul>
+.</div>
+
+<div class="blue">
+What's good about them? Using tables for layout creation is intuitive. You can see them almost everywhere! You don't even need to use a separate CSS stylesheet when using tables. And, what is more important, they don't break. Me neither. <span class="s1">Sounds great</span>. We'll use one of them for our site later.
+</div>
+<div class="image">
+<img src="5.jpg" width="300" height="500">
+</div>
+<div class="last">
+<a href="http\\:www.yahoo1.com">Yahoo</a> | <a href="http\\:www.google2.com">google</a> | <a href="http\\:www.msn1.com">MSN</a> | <a href="http\\:www.yahoo22.com">Yahoo</a> | <a href="http\\:www.google1.com">google</a> | <a href="http\\:www.msn2.com">MSN</a>
+</div>
+</body>
+</html>
